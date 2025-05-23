@@ -1,4 +1,4 @@
-import inProgress from '../assets/inProgress.png'
+import inProgress from '../assets/InProgress.png'
 
 function App() {
   return (
