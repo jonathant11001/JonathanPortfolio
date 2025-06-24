@@ -1,5 +1,5 @@
-import penguHome from '../assets/penguHome.png'
-import penguBg from '../assets/penguHomeBackground.png'
+import penguHome from '../assets/PenguHome.png'
+import penguBg from '../assets/PenguHomeBackground.png'
 
 function Home() {
   return (
