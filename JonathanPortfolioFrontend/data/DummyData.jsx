@@ -4,6 +4,8 @@ const DummyData = [
         title: "Project One",
         description: "Description for project one",
         image: "path/to/image1.jpg",
+        gitHubLink: "https://github.com/user/project-one",
+        techStack: ["React", "Node.js", "PostgreSQL"],
         progress: "In Progress",
     },
     {
@@ -11,6 +13,8 @@ const DummyData = [
         title: "Project Two",
         description: "Description for project two",
         image: "path/to/image2.jpg",
+        gitHubLink: "https://github.com/user/project-two",
+        techStack: ["React", "Node.js", "PostgreSQL"],
         progress: "In Progress"
     },
     {
@@ -18,6 +22,8 @@ const DummyData = [
         title: "Project Three",
         description: "Description for project three",
         image: "path/to/image3.jpg",
+        gitHubLink: "https://github.com/user/project-three",
+        techStack: ["React", "Node.js", "PostgreSQL"],
         progress: "In Progress"
     },
     {
@@ -25,6 +31,8 @@ const DummyData = [
         title: "Project Four",
         description: "Description for project four",
         image: "path/to/image4.jpg",
+        gitHubLink: "https://github.com/user/project-four",
+        techStack: ["React", "Node.js", "PostgreSQL"],
         progress: "Completed"
     },
     {
@@ -32,6 +40,8 @@ const DummyData = [
         title: "Project Five",
         description: "Description for project five",
         image: "path/to/image5.jpg",
+        gitHubLink: "https://github.com/user/project-five",
+        techStack: ["React", "Node.js", "PostgreSQL"],
         progress: "Completed"
     },
     {
@@ -39,6 +49,8 @@ const DummyData = [
         title: "Project Six",
         description: "Description for project six",
         image: "path/to/image6.jpg",
+        gitHubLink: "https://github.com/user/project-six",
+        techStack: ["React", "Node.js", "PostgreSQL"],
         progress: "Completed"
     },
     {
@@ -46,6 +58,8 @@ const DummyData = [
         title: "Project Seven",
         description: "Description for project seven",
         image: "path/to/image7.jpg",
+        gitHubLink: "https://github.com/user/project-seven",
+        techStack: ["React", "Node.js", "PostgreSQL"],
         progress: "Completed"
     },
     {
@@ -53,6 +67,8 @@ const DummyData = [
         title: "Project Eight",
         description: "Description for project eight",
         image: "path/to/image8.jpg",
+        gitHubLink: "https://github.com/user/project-eight",
+        techStack: ["React", "Node.js", "PostgreSQL"],
         progress: "Completed"
     },
     {
@@ -60,6 +76,8 @@ const DummyData = [
         title: "Project Nine",
         description: "Description for project nine",
         image: "path/to/image9.jpg",
+        gitHubLink: "https://github.com/user/project-nine",
+        techStack: ["React", "Node.js", "PostgreSQL"],
         progress: "Completed"
     },
     {
@@ -67,6 +85,8 @@ const DummyData = [
         title: "Project Ten",
         description: "Description for project ten",
         image: "path/to/image10.jpg",
+        gitHubLink: "https://github.com/user/project-ten",
+        techStack: ["React", "Node.js", "PostgreSQL"],
         progress: "Completed"
     }
 ];

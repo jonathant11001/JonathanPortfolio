@@ -1,4 +1,4 @@
-function ProjectCard({ title, description, techStack, image }) {
+function ProjectCard({ title, description, techStack, image, gitHubLink }) {
   return (
     <div className="bg-white rounded-lg shadow flex flex-col md:flex-row items-center p-4 gap-4 min-w-[320px] max-w-md w-full mx-4 my-4">
       <div className="bg-gray-200 rounded w-full md:w-40 h-32 md:h-24 flex-shrink-0 flex items-center justify-center">
@@ -11,6 +11,18 @@ function ProjectCard({ title, description, techStack, image }) {
       <div className="flex-1 flex flex-col justify-between h-full">
         <h3 className="text-xl font-bold mb-1">{title}</h3>
         <p className="text-sm text-gray-700 mb-2">Description: <span className="text-gray-500">{description}</span></p>
+        {gitHubLink && (
+          <div className="mb-2">
+            <a 
+              href={gitHubLink} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-blue-600 hover:text-blue-800 text-sm underline"
+            >
+              View on GitHub
+            </a>
+          </div>
+        )}
         <div>
           <span className="font-semibold text-sm">Tech Stack:</span>
           <div className="flex flex-wrap gap-2 mt-1">
