@@ -12,7 +12,7 @@ function CompletedProjects({ projects }) {
               title={proj.title}
               description={proj.description}
               image={proj.image}
-              techStack={proj.techStack || ["React", "SQL", "Java"]}
+              techStacks={proj.techStacks || ["React", "SQL", "Java"]}
             />
           ))}
         </div>

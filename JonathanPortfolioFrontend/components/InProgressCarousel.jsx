@@ -80,7 +80,7 @@ function InProgressCarousel({ projects }) {
                 description={projects[0].description}
                 image={projects[0].image}
                 gitHubLink={projects[0].gitHubLink}
-                techStack={projects[0].techStack || ['React', 'SQL', 'Java']}
+                techStacks={projects[0].techStacks || ['React', 'SQL', 'Java']}
               />
             </div>
           ) : (
@@ -100,7 +100,7 @@ function InProgressCarousel({ projects }) {
                       description={proj.description}
                       image={proj.image}
                       gitHubLink={proj.gitHubLink}
-                      techStack={proj.techStack || ['React', 'SQL', 'Java']}
+                      techStacks={proj.techStacks || ['React', 'SQL', 'Java']}
                     />
                   </div>
                 )
@@ -121,7 +121,7 @@ function InProgressCarousel({ projects }) {
                     description={proj.description}
                     image={proj.image}
                     gitHubLink={proj.gitHubLink}
-                    techStack={proj.techStack || ['React', 'SQL', 'Java']}
+                    techStacks={proj.techStacks || ['React', 'SQL', 'Java']}
                   />
                 </div>
               )
